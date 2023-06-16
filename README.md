@@ -29,6 +29,11 @@ Sponsored Social Share Image (SSSI) is a WordPress plugin that allows you to eas
 6. To preview how the banner will appear on social media, use the preview functionality provided by SSSI.
 7. The plugin works seamlessly with popular SEO plugins, ensuring compatibility and a smooth user experience.
 
+## Screenshots
+![Meta box](Screenshots/Screenshot1.png)
+![Settins](Screenshots/Screenshot2.png)
+![Preview](Screenshots/Screenshot3.png)
+
 ## Support
 
 If you need any assistance or have any questions regarding the Sponsored Social Share Image (SSSI) plugin, please reach out to me at [alsayeedpro@gmail.com](mailto:alsayeedpro@gmail.com).
