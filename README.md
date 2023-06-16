@@ -33,6 +33,22 @@ Sponsored Social Share Image (SSSI) is a WordPress plugin that allows you to eas
 
 If you need any assistance or have any questions regarding the Sponsored Social Share Image (SSSI) plugin, please reach out to me at [alsayeedpro@gmail.com](mailto:alsayeedpro@gmail.com).
 
+## Developer Contact
+<div style="text-align: center; place-items: center;">
+    <a href="https://www.facebook.com/AlSayeedOfficial">
+        <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
+    </a>
+    <a href="https://www.instagram.com/AlSayeedAR">
+        <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+    </a>
+    <a href="https://t.me/AlSayeedAR">
+        <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white">
+    </a>
+    <a href="https://wa.me/8801868188006">
+        <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+    </a>
+</div>
+
 ## Contributing
 
 We welcome contributions from the community to enhance the functionality and features of the Sponsored Social Share Image (SSSI) plugin. If you would like to contribute, please follow these guidelines:
