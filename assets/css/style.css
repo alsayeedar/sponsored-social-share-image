@@ -1,0 +1,21 @@
+.no_default_image, #remove_sponsor_banner {
+    display: inline-block;
+    margin-top: 5px;
+    color: #b32d2e;
+}
+
+#sponsor_banner_preview_label {
+    margin: 10px 0 3px;
+    display: block;
+    font-weight: 600;
+}
+#default_sponsor_banner_preview_img {
+    display: block;
+    margin-bottom: 5px;
+    width: 70%;
+    height: auto;
+}
+#sponsor_select_button {
+    display: block;
+    width: 100%;
+}
