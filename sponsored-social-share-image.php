@@ -2,7 +2,7 @@
 /*
  * Plugin Name:       Sponsored Social Share Image - SSSI
  * Description:       Use this plugin to add a sponsored banner watermark to the featured image which will display on social media open graph image.
- * Version:           1.2
+ * Version:           1.1
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Al Sayeed
