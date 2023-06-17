@@ -77,7 +77,9 @@ If you have any questions or need further clarification regarding the license, f
 
 ## Changelog
 
-- 1.1: Image size improved.
-- 1.0: Initial release.
+- 1.1: Release date: 2023-06-17
+    - Image size improved.
+- 1.0: Release date: 2023-06-16
+    - Initial release.
 
 We hope you find the Sponsored Social Share Image (SSSI) plugin useful for enhancing the social media visibility of your WordPress posts. If you have any feedback or suggestions, please let us know. Happy sharing!
