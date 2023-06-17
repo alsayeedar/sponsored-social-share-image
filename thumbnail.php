@@ -32,22 +32,25 @@ if ($_GET["m"] && $_GET["s"] && !empty($_GET["m"]) && !empty($_GET["p"])) {
     
     if ($main && $ad) {
         header("Content-Type: image/png");
-        $main_width = imagesx($main); // get main image width to resize ad image width as same size // 1280
-        $main_height = imagesy($main); // get main image height to calcualte y offset for imagecopy function // 640
-        
-        $ad_width = imagesx($ad); // get ad width to calculate resize value for new ad image height based on aspect ratio // 800
-        $ad_height = imagesy($ad); // get ad height to calculate resize value for new ad image height based on aspect ratio // 56
-        
+        $main_width = 1200;
+        $main_height = 630;
+
+        $resizedMainImage = imagecreatetruecolor($main_width, $main_height);
+        imagecopyresampled($resizedMainImage, $main, 0, 0, 0, 0, $main_width, $main_height, imagesx($main), imagesy($main));
+
+        $ad_width = imagesx($ad);
+        $ad_height = imagesy($ad);
+
         $newWidth = $main_width;
         $newHeight = calculateResizedHeight($ad_width, $ad_height, $newWidth);
-        
+
         $resizedImage = imagecreatetruecolor($newWidth, $newHeight);
-        
         imagecopyresampled($resizedImage, $ad, 0, 0, 0, 0, $newWidth, $newHeight, imagesx($ad), imagesy($ad));
+
         $position_int = $position == "bottom" ? $main_height - $newHeight : 0;
-        imagecopy($main, $resizedImage, 0, $position_int, 0, 0, $newWidth, $newHeight);
+        imagecopy($resizedMainImage, $resizedImage, 0, $position_int, 0, 0, $newWidth, $newHeight);
         
-        imagepng($main);
+        imagepng($resizedMainImage);
     } else {
         http_response_code(404);
         echo "Error: Image not found!";
