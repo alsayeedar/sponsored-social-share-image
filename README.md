@@ -2,6 +2,11 @@
 
 Sponsored Social Share Image (SSSI) is a WordPress plugin that allows you to easily add a banner to the featured image of your posts. This banner will be displayed in the Facebook Open Graph and Twitter Card when your posts are shared on social media platforms. With SSSI, you have full control over the banner settings, including the ability to set a unique banner for each post, define default banner settings, choose the banner position (top or bottom), and preview how the banner will appear on social media.
 
+## Recommendation
+
+- Recommended Featured Image size: 1200 by 630 pixels
+- Recommended Banner Image size: 1200 by 80 pixels
+
 ## Features
 
 - Add a banner to the featured image for Facebook Open Graph and Twitter Card.
