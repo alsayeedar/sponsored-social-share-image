@@ -45,6 +45,9 @@ Sponsored Social Share Image (SSSI) is a WordPress plugin that allows you to eas
 
 If you need any assistance or have any questions regarding the Sponsored Social Share Image (SSSI) plugin, please reach out to me at [alsayeedpro@gmail.com](mailto:alsayeedpro@gmail.com).
 
+## Credits
+- [Al Sayeed](https://github.com/alsayeedar/)
+
 ## Developer Contact
 <div style="text-align: center; place-items: center;">
     <a href="https://www.facebook.com/AlSayeedOfficial">
